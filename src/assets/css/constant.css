@@ -1,0 +1,13 @@
+:root {
+  /* Color */
+  --headlineColor: #4122af;
+  --subHeadColor: #22125d;
+  --primaryColor: #074ee8;
+  --textPrimaryColor: #000;
+  --textSecondryColor: #fff;
+
+  /* Background color */
+  --PrimaryBackground: "#fff";
+  --secondryBackground: "#aaa";
+  --themeBackground: #074ee8;
+}
