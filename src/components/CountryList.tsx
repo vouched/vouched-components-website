@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/css/style.css";
-import "../assets/css/componentsCollection.css";
-
+import "../assets/css/responsive.css";
 interface CountryListProps {
   value?: string;
 }

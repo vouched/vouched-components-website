@@ -3,9 +3,11 @@ import Footer from "./footer";
 import Header from "./header";
 import Components from "./sideNavigation";
 import "../assets/css/style.css";
+import "../assets/css/responsive.css";
+
 import { DocumentSection, Documents, VcodeBox, ComponentsTitle,  } from "./componentsCollection";
 
-import { Tooltip, VButton, IButton } from "@vouched.id/vouched-brand-components";
+import { Tooltip, VButton, IButton } from "brand-components";
 
 
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";

@@ -3,9 +3,11 @@ import Footer from "./footer";
 import Header from "./header";
 import Components from "./sideNavigation";
 import "../assets/css/style.css";
+import "../assets/css/responsive.css";
+
 import { DocumentSection, Documents, VcodeBox, ComponentsTitle } from "./componentsCollection";
 
-import { InputField } from "@vouched.id/vouched-brand-components";
+import { InputField } from "brand-components";
 
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import jsx from "react-syntax-highlighter/dist/esm/languages/prism/jsx";
@@ -23,13 +25,13 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
   export const VInputField: React.FC<VInputFieldProps> = (props) => {
   return (
           <>
-            <InputField placeholder="Name" borderColor="#aaa" fontColor="#000" type="default-input-m" HideInput={true} />
+            <InputField Placeholder="Name" borderColor="#aaa" fontColor="#000" type="default-input-m" HideInput={true} />
            
-            <InputField placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
+            <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
             
-            <InputField placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
+            <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
             
-            <InputField placeholder="Name" type="default-input-m" show={false} />
+            <InputField Placeholder="Name" type="default-input-m" show={false} />
           </>
         );
   };
@@ -46,13 +48,13 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
           <div className="section_box">
             <div className="componentview">
               <div className="componentsView_section">
-                <InputField placeholder="Name" borderColor="#aaa" fontColor="var(--textPrimaryColor);" type="default-input-m" HideInput={true} />
+                <InputField Placeholder="Password" borderColor="#aaa" fontColor="var(--textPrimaryColor);" type="default-input-m" HideInput={true} />
                 <br />
-                <InputField placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
                 <br />
-                <InputField placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
                 <br />
-                <InputField placeholder="Name" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Name" type="default-input-m" HideInput={false} />
               </div>
             </div>
 

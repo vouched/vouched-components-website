@@ -3,10 +3,11 @@ import Footer from "./footer";
 import Header from "./header";
 import Components from "./sideNavigation";
 import "../assets/css/style.css";
+import "../assets/css/responsive.css";
 import { Documents, DocumentSection, ComponentsTitle } from "./componentsCollection";
 import { FaQuestion, FaInfo } from "react-icons/fa";
 
-import { AlertMessage } from "@vouched.id/vouched-brand-components";
+import { AlertMessage } from "brand-components";
 
 interface VAlertProps {}
 export const VAlert: React.FC<VAlertProps> = (props) => {

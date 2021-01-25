@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/css/constant.css";
+import "../src/assets/css/constant.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import home from "./components/Home";
 import button from "./components/Button";
@@ -14,7 +14,7 @@ import dropdown from "./components/DropDown";
 import alert from "./components/Alert";
 import notification from "./components/Notification";
 import loader from "./components/Loader";
-
+import test from "./components/test";
 
 //Document
 import documents from "./components/ducuments";
@@ -40,6 +40,7 @@ export const App: React.FC<AppProps> = (props) => {
             <Route exact path="/notification" component={notification} />
             <Route exact path="/loader" component={loader} />
             <Route exact path="/documents" component={documents} />
+            <Route exact path="/test" component={test} />
           </Switch>
         </div>
       </BrowserRouter>

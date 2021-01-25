@@ -1,9 +1,13 @@
 import React from "react";
 import "../assets/css/style.css";
+import "../assets/css/responsive.css";
+
 import { CountryList } from "./CountryList";
 import { FaTimesCircle } from "react-icons/fa";
 
-import { Title, Paragraph, Dropdown, VLabel } from "@vouched.id/vouched-brand-components";
+import { Title } from "./componentsCollection"
+
+import { Paragraph, Dropdown, VLabel } from "brand-components";
 
 interface HelpProps {
   children: JSX.Element | JSX.Element[];

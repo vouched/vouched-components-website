@@ -3,10 +3,12 @@ import Footer from "./footer";
 import Header from "./header";
 import Components from "./sideNavigation";
 import "../assets/css/style.css";
+import "../assets/css/responsive.css";
+
 import { DocumentSection, Documents, VcodeBox, ComponentsTitle } from "./componentsCollection";
 import { FaPlus } from "react-icons/fa";
 
-import { IButton } from "@vouched.id/vouched-brand-components";
+import { IButton } from "brand-components";
 
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import jsx from "react-syntax-highlighter/dist/esm/languages/prism/jsx";

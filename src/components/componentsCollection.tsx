@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/css/style.css";
-import "../assets/css/componentsCollection.css";
-// import { FaEyeSlash, FaEye } from "react-icons/fa";
+import "../assets/css/responsive.css";
 import { Link } from "react-router-dom";
 
 // Subheading ang subtitle
@@ -51,6 +50,18 @@ interface DocTagParaProps {
 export const DocTagPara: React.FC<DocTagParaProps> = (props) => {
   return <span className="code_inLine">{props.text}</span>;
 };
+
+//Title
+interface titleProps {
+  text: string
+}
+export const Title: React.FC<titleProps> = (props) => {
+  return (
+    <>
+      <h1 className="title_h">{props.text}</h1>
+    </>
+  )
+}
 
 // Division
 interface VouchedDivProps {
