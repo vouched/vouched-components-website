@@ -30,13 +30,13 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
             <IButton>
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" IconColor="#fff" type="default-icon-m">
+            <IButton color="#074EE8" IconColor="#fff" type="default-icon">
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" type="outline-icon-m">
+            <IButton color="#074EE8" type="outline-icon">
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" type="text-icon-m">
+            <IButton color="#074EE8" type="text-icon">
               <FaPlus />
             </IButton>
           </>
@@ -58,15 +58,15 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" IconColor="#fff" type="default-icon-m">
+                <IButton color="#074EE8" IconColor="#fff" type="default-icon">
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" type="outline-icon-m">
+                <IButton color="#074EE8" type="outline-icon">
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" type="text-icon-m">
+                <IButton color="#074EE8" type="text-icon">
                   <FaPlus />
                 </IButton>
               </div>
@@ -90,10 +90,14 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
                 discription="you can change the icon color of the icon button using the 'color' attribute. like [IconColor='#074EE8']"
               />
               <Documents
+                tag="fontSize"
+                discription="you can change the icon size of the button using the 'fontSize' attribute. Example [fontSize='1.2vw']"
+              />
+              <Documents
                 tag="type"
                 discription="You can change btn design using type attribute. which are following: 
-                [type='default-icon-s'],[type='outline-icon-m'],[type='text-icon-l']. 
-                default, outline and text is defined btn design. xs, s, m, l, xl defined btn size."
+                [type='default-icon'],[type='outline-icon'],[type='text-icon']. 
+                default, outline and text is defined btn design."
               />
               <Documents discription="You can make action like onclick, onchange. Example: [onClickEvent={() => this.handleClick()} ]" />
               <Documents discription="For icon visit https://react-icons.github.io/react-icons and select Font Awesome" />

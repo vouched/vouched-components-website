@@ -26,22 +26,22 @@ export const Button: React.FC<ButtonProps> = (props) => {
   export const Button: React.React.FC<ButtonProps> = (props) => {
   return (
           <>
-            <VButton>Primary</VButton>
+            <VButton>Submit</VButton>
 
-            <VButton color="#074EE8" fontColor="#fff" type="default-btn-m" startIcon={<FaChevronLeft />}>
-              Primary
+            <VButton color="#074EE8" fontColor="#fff" type="default-btn" startIcon={<FaChevronLeft />}>
+              Submit
             </VButton>
 
-            <VButton fontColor="#074EE8" type="outline-btn-m" endIcon={<FaChevronRight />}>
-              Primary
+            <VButton fontColor="#074EE8" type="outline-btn" endIcon={<FaChevronRight />}>
+              Submit
             </VButton>
 
-            <VButton color="#074EE8" type="text-btn-m" endIcon={<FaChevronRight />}>
-              Primary
+            <VButton color="#074EE8" type="text-btn" endIcon={<FaChevronRight />}>
+              Submit
             </VButton>
 
-            <VButton color="#074EE8" type="text-btn-l">
-              Primary
+            <VButton color="#074EE8" type="text-btn">
+              Submit
             </VButton>
           </>
         );
@@ -62,30 +62,30 @@ export const Button: React.FC<ButtonProps> = (props) => {
             <div className="componentview">
               <div className="componentsView_subdiv">
                 <div className="component_saprate">
-                  <VButton>Primary</VButton>
+                  <VButton>Submit</VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" fontColor="#fff" type="default-btn-m" startIcon={<FaChevronLeft />}>
-                    Primary
+                  <VButton color="#074EE8" fontColor="#fff" type="default-btn" startIcon={<FaChevronLeft />}>
+                    Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton fontColor="#074EE8" type="outline-btn-m" endIcon={<FaChevronRight />}>
-                    Primary
+                  <VButton fontColor="#074EE8" type="outline-btn" endIcon={<FaChevronRight />}>
+                    Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" type="text-btn-m" endIcon={<FaChevronRight />}>
-                    Primary
+                  <VButton color="#074EE8" type="text-btn" endIcon={<FaChevronRight />}>
+                    Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" type="text-btn-l">
-                    Primary
+                  <VButton color="#074EE8" type="text-btn">
+                    Submit
                   </VButton>
                 </div>
               </div>
@@ -106,13 +106,17 @@ export const Button: React.FC<ButtonProps> = (props) => {
               />
               <Documents
                 tag="fontColor"
-                discription="you can change the font color of the button using the 'color' attribute. Example [fontColor='#074EE8']"
+                discription="you can change the font color of the button using the 'fontColor' attribute. Example [fontColor='#074EE8']"
+              />
+              <Documents
+                tag="fontSize"
+                discription="you can change the font size of the button using the 'fontSize' attribute. Example [fontSize='1.2vw']"
               />
               <Documents
                 tag="Type"
                 discription="You can change btn design using type attribute. which are following: 
-                [type='default-btn-s'],[type='outline-btn-m'],[type='text-btn-m']. 
-                default, outline and text is defined btn design. xs, s, m, l, xl defined btn size."
+                [type='default-btn'],[type='outline-btn'],[type='text-btn']. 
+                default, outline and text is defined btn design."
               />
               <Documents
                 tag="endIcon"

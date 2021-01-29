@@ -25,13 +25,14 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
   export const VInputField: React.FC<VInputFieldProps> = (props) => {
   return (
           <>
-            <InputField Placeholder="Name" borderColor="#aaa" fontColor="#000" type="default-input-m" HideInput={true} />
+            <InputField Placeholder="Name" borderColor="#aaa" fontColor="#000"  HideInput={true} />
            
-            <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
+            <InputField Placeholder="Name" show={false} />
+
+            <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" HideInput={false} />
             
-            <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
+            <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" HideInput={false} />
             
-            <InputField Placeholder="Name" type="default-input-m" show={false} />
           </>
         );
   };
@@ -48,13 +49,13 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
           <div className="section_box">
             <div className="componentview">
               <div className="componentsView_section">
-                <InputField Placeholder="Password" borderColor="#aaa" fontColor="var(--textPrimaryColor);" type="default-input-m" HideInput={true} />
+                <InputField Placeholder="Password" borderColor="#aaa" fontColor="#000" HideInput={true} />
                 <br />
-                <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Your work email" fontColor="#000" HideInput={false} />
                 <br />
-                <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" HideInput={false} />
                 <br />
-                <InputField Placeholder="Name" type="default-input-m" HideInput={false} />
+                <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" HideInput={false} />
               </div>
             </div>
 
@@ -80,11 +81,6 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
                 discription="you can change the border color of the input field using the 'color' attribute. like [borderColor='#074EE8']"
               />
               <Documents tag="HideInput" discription="Here you use show/hide input text using 'HideInput' tag. Example: [ HideInput={true}]" />
-              <Documents
-                tag="type"
-                discription="You can change or modify size of input field using type attribute. Example: 
-                [type='default-input-xs'], [type='default-input-s'], [type='default-input-m'], [type='default-input-l'], [type='default-input-xl'].  xs, s, m, l, xl defined btn size."
-              />
               <Documents discription="You can make action like onclick, onchange. Example: [onClickEvent={() => this.handleClick()} ]" />
             </DocumentSection>
           </div>

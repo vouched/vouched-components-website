@@ -27,7 +27,7 @@ export const VDropdown: React.FC<VDropdownProps> = (props) => {
   export const VDropdown: React.FC<VDropdownProps> = (props) => {
   return (
           <>
-            <Dropdown name="Select your country" type="default-dropdown-m" fontColor="#074EE8" borderColor="#074EE8">
+            <Dropdown name="Select your country" type="default-dropdown" fontColor="#074EE8" borderColor="#074EE8">
               <CountryList />
             </Dropdown>
 
@@ -54,7 +54,7 @@ export const VDropdown: React.FC<VDropdownProps> = (props) => {
             {/* design section */}
             <div className="componentview">
               <div className="componentsView_subdiv">
-                <Dropdown name="Select your country" type="default-dropdown-m" fontColor="#074EE8" borderColor="#074EE8">
+                <Dropdown name="Select your country" type="default-dropdown" fontColor="#074EE8" borderColor="#074EE8">
                   <CountryList />
                 </Dropdown>
               </div>
@@ -92,7 +92,7 @@ export const VDropdown: React.FC<VDropdownProps> = (props) => {
               <Documents
                 tag="Type"
                 discription="You can change btn design using type attribute. which are following: 
-                [type='default-dropdown-s'], [type='default-dropdown-s'], [type='default-dropdown-s'], [type='default-dropdown-s'], [type='default-dropdown-s']. default is defined dropdown design. xs, s, m, l, xl defined btn size."
+                [type='default-dropdown'], [type='default-dropdown'], [type='default-dropdown'], [type='default-dropdown'], [type='default-dropdown']. default is defined dropdown design."
               />
               <Documents discription="You can make action like onclick, onchange. Example:   [onClickEvent={() => this.handleClick()} ]" />
             </DocumentSection>
