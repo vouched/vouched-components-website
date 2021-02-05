@@ -47,8 +47,7 @@ export const VTextArea: React.FC<VTextAreaProps> = (props) => {
             <div className="componentview">
               <div className="componentsView_section">
                 <TextArea />
-                <TextArea type="default-textarea-s" />
-                <TextArea type="default-textarea-xl" color="#aaa" fontColor="#fff" size="18px" borderColor="#aaa" height="60px" />
+                <TextArea type="default-textarea" />
               </div>
             </div>
 
@@ -61,23 +60,7 @@ export const VTextArea: React.FC<VTextAreaProps> = (props) => {
 
             {/* Document Section */}
             <DocumentSection title="Textarea document" titleDetails="To modify the Textarea, Please take the reference of our documents.">
-              <Documents
-                tag="color"
-                discription="you can change the background color of the input field using the 'color' attribute. like [color='#074EE8']"
-              />
-              <Documents
-                tag="fontColor"
-                discription="you can change the font color of the input field using the 'color' attribute. like [fontColor='#074EE8']"
-              />
-              <Documents
-                tag="borderColor"
-                discription="you can change the border color of the input field using the 'color' attribute. like [borderColor='#074EE8']"
-              />
-              <Documents tag="size" discription="you can change the font size of the input field using the 'size' attribute. like [size='#074EE8']" />
-              <Documents
-                tag="height"
-                discription="you can change the textarea height of the input field using the 'height' attribute. like [height='#074EE8']"
-              />
+              <Documents tag="customStyle" discription="‘style?:{}’ prop so that we can just pass in everything in one object." />
               <Documents
                 tag="type"
                 discription="You can change or modify size of input field using type attribute. Example: 

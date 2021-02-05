@@ -19,7 +19,7 @@ const Home: React.FC<HomeProps> = (props) => {
         </p>
         <div className="getstartedDiv">
           <Link className="btnLink" to="/button">
-            <VButton fontColor="#074EE8" type="outline-btn" endIcon={<FaChevronRight />}>
+            <VButton type="outline-btn" endIcon={<FaChevronRight />}>
               Components
             </VButton>
           </Link>

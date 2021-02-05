@@ -30,13 +30,13 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
             <IButton>
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" IconColor="#fff" type="default-icon">
+            <IButton type="default-icon">
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" type="outline-icon">
+            <IButton type="outline-icon">
               <FaPlus />
             </IButton>
-            <IButton color="#074EE8" type="text-icon">
+            <IButton type="text-icon">
               <FaPlus />
             </IButton>
           </>
@@ -58,15 +58,15 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" IconColor="#fff" type="default-icon">
+                <IButton type="default-icon">
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" type="outline-icon">
+                <IButton type="outline-icon">
                   <FaPlus />
                 </IButton>
 
-                <IButton color="#074EE8" type="text-icon">
+                <IButton type="text-icon">
                   <FaPlus />
                 </IButton>
               </div>
@@ -81,18 +81,8 @@ export const VIconButton: React.FC<VIconButtonProps> = (props) => {
 
             {/* Document Section */}
             <DocumentSection title="Icon Button document" titleDetails="To modify the icon button, Please take the reference of our documents.">
-              <Documents
-                tag="color"
-                discription="you can change the background color of the icon button using the 'color' attribute. like [color='#074EE8']"
-              />
-              <Documents
-                tag="IconColor"
-                discription="you can change the icon color of the icon button using the 'color' attribute. like [IconColor='#074EE8']"
-              />
-              <Documents
-                tag="fontSize"
-                discription="you can change the icon size of the button using the 'fontSize' attribute. Example [fontSize='1.2vw']"
-              />
+              <Documents tag="customStyle" discription="‘style?:{}’ prop so that we can just pass in everything in one object." />
+
               <Documents
                 tag="type"
                 discription="You can change btn design using type attribute. which are following: 

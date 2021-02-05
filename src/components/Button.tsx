@@ -28,19 +28,19 @@ export const Button: React.FC<ButtonProps> = (props) => {
           <>
             <VButton>Submit</VButton>
 
-            <VButton color="#074EE8" fontColor="#fff" type="default-btn" startIcon={<FaChevronLeft />}>
+            <VButton type="default-btn" startIcon={<FaChevronLeft />}>
               Submit
             </VButton>
 
-            <VButton fontColor="#074EE8" type="outline-btn" endIcon={<FaChevronRight />}>
+            <VButton type="outline-btn" endIcon={<FaChevronRight />}>
               Submit
             </VButton>
 
-            <VButton color="#074EE8" type="text-btn" endIcon={<FaChevronRight />}>
+            <VButton type="text-btn" endIcon={<FaChevronRight />}>
               Submit
             </VButton>
 
-            <VButton color="#074EE8" type="text-btn">
+            <VButton type="text-btn">
               Submit
             </VButton>
           </>
@@ -66,27 +66,25 @@ export const Button: React.FC<ButtonProps> = (props) => {
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" fontColor="#fff" type="default-btn" startIcon={<FaChevronLeft />}>
+                  <VButton type="default-btn" startIcon={<FaChevronLeft />}>
                     Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton fontColor="#074EE8" type="outline-btn" endIcon={<FaChevronRight />}>
+                  <VButton type="outline-btn" endIcon={<FaChevronRight />}>
                     Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" type="text-btn" endIcon={<FaChevronRight />}>
+                  <VButton type="text-btn" endIcon={<FaChevronRight />}>
                     Submit
                   </VButton>
                 </div>
 
                 <div className="component_saprate">
-                  <VButton color="#074EE8" type="text-btn">
-                    Submit
-                  </VButton>
+                  <VButton type="text-btn">Submit</VButton>
                 </div>
               </div>
             </div>
@@ -100,18 +98,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
 
             {/* Document Section */}
             <DocumentSection title="Button document" titleDetails="To modify the button, Please take the reference of our documents.">
-              <Documents
-                tag="color"
-                discription="you can change the background color of the button using the 'color' attribute. Example [color='#074EE8']"
-              />
-              <Documents
-                tag="fontColor"
-                discription="you can change the font color of the button using the 'fontColor' attribute. Example [fontColor='#074EE8']"
-              />
-              <Documents
-                tag="fontSize"
-                discription="you can change the font size of the button using the 'fontSize' attribute. Example [fontSize='1.2vw']"
-              />
+              <Documents tag="customStyle" discription="‘style?:{}’ prop so that we can just pass in everything in one object." />
               <Documents
                 tag="Type"
                 discription="You can change btn design using type attribute. which are following: 

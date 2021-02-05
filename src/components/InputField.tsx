@@ -49,13 +49,13 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
           <div className="section_box">
             <div className="componentview">
               <div className="componentsView_section">
-                <InputField Placeholder="Password" borderColor="#aaa" fontColor="#000" HideInput={true} />
+                <InputField Placeholder="Password" HideInput={true} />
                 <br />
-                <InputField Placeholder="Your work email" fontColor="#000" HideInput={false} />
+                <InputField Placeholder="Your work email" HideInput={false} />
                 <br />
-                <InputField Placeholder="Name" color="#aaa" borderColor="#aaa" fontColor="#aaa" HideInput={false} />
+                <InputField Placeholder="Name" HideInput={false} />
                 <br />
-                <InputField Placeholder="Name" borderColor="#074EE8" fontColor="#074EE8" HideInput={false} />
+                <InputField Placeholder="Name" HideInput={false} />
               </div>
             </div>
 
@@ -68,18 +68,8 @@ export const VInputField: React.FC<VInputFieldProps> = (props) => {
 
             {/* Document Section */}
             <DocumentSection title="Input field document" titleDetails="To modify the icon button, Please take the reference of our documents.">
-              <Documents
-                tag="color"
-                discription="you can change the background color of the input field using the 'color' attribute. like [color='#074EE8']"
-              />
-              <Documents
-                tag="fontColor"
-                discription="you can change the font color of the input field using the 'color' attribute. like [fontColor='#074EE8']"
-              />
-              <Documents
-                tag="borderColor"
-                discription="you can change the border color of the input field using the 'color' attribute. like [borderColor='#074EE8']"
-              />
+              <Documents tag="customStyle" discription="‘style?:{}’ prop so that we can just pass in everything in one object." />
+
               <Documents tag="HideInput" discription="Here you use show/hide input text using 'HideInput' tag. Example: [ HideInput={true}]" />
               <Documents discription="You can make action like onclick, onchange. Example: [onClickEvent={() => this.handleClick()} ]" />
             </DocumentSection>

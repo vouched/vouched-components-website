@@ -33,7 +33,7 @@ export const VTooltip: React.FC<VTooltipProps> = (props) => {
             </Tooltip>
 
             <Tooltip>
-              <IButton color="#074EE8" type="text-icon-m"><FaInfoCircle /></IButton>
+              <IButton type="text-icon-m"><FaInfoCircle /></IButton>
             </Tooltip>
 
             <Tooltip
@@ -60,7 +60,7 @@ export const VTooltip: React.FC<VTooltipProps> = (props) => {
               <div className="componentsView_subdiv">
                 <div className="component_saprate">
                   <Tooltip>
-                    <IButton color="#074EE8" type="text-icon-m">
+                    <IButton type="text-icon-m">
                       <FaInfoCircle />
                     </IButton>
                   </Tooltip>

@@ -72,7 +72,7 @@ export const VNotification: React.FC<VNotificationProps> = (props) => {
                   color="#22125D"
                   size="14px"
                 >
-                  <VButton color="#22125D" fontColor="#fff" type="text-btn-m" endIcon={<FaChevronRight />}>
+                  <VButton type="text-btn-m" endIcon={<FaChevronRight />}>
                     Dismiss
                   </VButton>
                 </Notification>
